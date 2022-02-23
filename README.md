@@ -12,16 +12,7 @@ Upload class_cache.php to include folder.
 
 Next you will include that file as a require once on the top of bittorrent.php :
 
-Code (php) Select
-//==Start memcache
-require_once('include/class_cache.php');
-
-
 That loads the class for use now. Next add this under it and your ready to rock and start adding memcache to your code.
-
-Code (php) Select
-$mc1 = NEW CACHE();
-
 
 Simple as that, this post presumes you have memcache installed and running. Now you can add any modification done here that has memcache added.
 
